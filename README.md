@@ -12,8 +12,6 @@ Department – The department where the employee works (e.g., Sales, Research & 
 
 DistanceFromHome – The distance (in miles/km) between the employee’s home and workplace.
 
-Education & Job Role
-
 Education – Employee’s education level (1 = Below College, 2 = College, 3 = Bachelor’s, 4 = Master’s, 5 = Doctorate).
 
 EducationField – Field of study (e.g., Life Sciences, Medical, Other).
@@ -75,11 +73,15 @@ Over18 – Whether the employee is above 18 (Always "Y", so it’s not useful fo
 StandardHours – The standard working hours (likely 80 for all employees, so not useful).
 
 🚫 Irrelevant Columns
+
 1️⃣ Redundant or Constant Values
+
 EmployeeCount – Always "1" for every employee, so it's not useful.
 Over18 – Always "Y," so it has no variation.
 StandardHours – Always "80," meaning it's not useful for analysis.
+
 2️⃣ Less Impactful Columns
+
 DailyRate – Since we already have MonthlyIncome, this is less useful.
 MonthlyRate – Not clearly defined in terms of compensation impact.
 NumCompaniesWorked – Could be useful in some cases but not directly linked to attrition in this dataset.
