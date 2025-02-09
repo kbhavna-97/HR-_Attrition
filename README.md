@@ -134,3 +134,7 @@ ________________________
 ****Conclusion:****
 This detailed analysis provides a clear picture of how work-life balance, job satisfaction, promotions, training, and overtime all influence employee attrition. The data supports the implementation of targeted retention strategies, especially focusing on improving work-life balance, offering career development opportunities, and customizing training programs to reduce turnover.
 
+_____________________________________________
+
+**RESOURCES:**
+Data set: https://www.kaggle.com/datasets/patelprashant/employee-attrition
